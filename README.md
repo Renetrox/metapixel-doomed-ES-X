@@ -1,6 +1,8 @@
-# MetaPixel (D00MED) v2023.03
+# MetaPixel (D00MED) ES-X v2026.01
 ![screenshot2.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/auto-favorites/screenshot2.jpg )
 ![screenshot2.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/openbor/screenshot2.jpg )  
+<img width="1366" height="768" alt="metapixel vertical" src="https://github.com/user-attachments/assets/d6d362f5-2c30-4698-85bd-6486e00582b5" />![metapixel](https://github.com/user-attachments/assets/fd6fe414-4fda-49a0-bb38-b0df4d188b91)
+
 
 About
 -----
