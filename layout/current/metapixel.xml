@@ -1,0 +1,389 @@
+<!--
+theme name:		MetaPixel (D00MED)
+version:		2023.03
+author:			RapidEdwin08
+github :		https://github.com/RapidEdwin08/metapixel-doomed
+theme info:		Fork of MetaPixel with Chicago95 Font + Extra Systems including PlayStation3, 3DS, Wii U by precursormar found here: https://www.reddit.com/r/emulation/comments/8tlyty/ive_updated_emulationstations_pixel_theme_by/
+
+based on:		MetaPixel
+version:		1.3
+author:			Matt Kennedy
+github :		https://github.com/mattrixk/es-theme-metapixel
+email:			info@cutmonkey.net
+website:		cutmonkey.net
+license:		creative commons CC-BY-NC-SA
+based on:		"Pixel" by Eric Hettervik
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<!-- Metadata global (fallback + sistema actual) -->
+	<include>./metadata-global/_default.xml</include>
+	<include>./metadata-global/${system.theme}.xml</include>
+
+	<!-- =========================
+	     VIEWS COMUNES
+	     ========================= -->
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<tile>false</tile>
+			<color>7b7b7b</color>
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./art/bg_simple.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<tile>true</tile>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<image name="border" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<!-- Helpsystem (unificado) -->
+		<helpsystem name="help">
+			<textColor>d5d5d5ff</textColor>
+			<iconColor>d5d5d5ff</iconColor>
+			<fontSize>0.025</fontSize>
+			<fontPath>./art/fontdos.ttf</fontPath>
+		</helpsystem>
+
+		<!-- Fuente global -->
+
+		<textlist name="gamelist">
+			<fontPath>./art/fontdos.ttf</fontPath>
+		</textlist>
+
+		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount, md_description">
+			<fontPath>./art/fontdos.ttf</fontPath>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./art/fontdos.ttf</fontPath>
+		</datetime>
+
+	</view>
+
+	<!-- =========================
+	     SYSTEM
+	     ========================= -->
+	<view name="system">
+
+		<image name="console" extra="true">
+			<pos>0.5 0.189</pos>
+			<maxSize>0.312 0.333</maxSize>
+		</image>
+
+		<image name="screenshot_left, screenshot_right" extra="true">
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.290 0.290</maxSize>
+		</image>
+
+		<image name="screenshot_left" extra="true">
+			<pos>0.169 0.189</pos>
+		</image>
+
+		<image name="screenshot_right" extra="true">
+			<pos>0.831 0.189</pos>
+		</image>
+
+		<!-- Descripción del sistema (metadata-global: ${systemDescription}) -->
+		<!-- Sombra -->
+		<text name="system-description_shadow" extra="true">
+			<origin>0 0</origin>
+			<pos>0.028 0.714</pos>
+			<size>0.95 0.18</size>
+			<text>${systemDescription}</text>
+			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>00000088</color>
+			<alignment>left</alignment>
+			<lineSpacing>1.05</lineSpacing>
+			<autoScroll>true</autoScroll>
+			<autoScrollDelay>999999</autoScrollDelay>
+			<zIndex>199</zIndex>
+		</text>
+
+		<!-- Texto -->
+		<text name="system-description" extra="true">
+			<origin>0 0</origin>
+			<pos>0.025 0.711</pos>
+			<size>0.95 0.18</size>
+			<text>${systemDescription}</text>
+			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>d5d5d5</color>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.05</lineSpacing>
+			<autoScroll>true</autoScroll>
+			<autoScrollDelay>999999</autoScrollDelay>
+			<zIndex>200</zIndex>
+		</text>
+
+		<image name="border" extra="true">
+			<path>./art/border_system.png</path>
+		</image>
+
+	</view>
+
+	<!-- =========================
+	     BASIC / DETAILED / VIDEO
+	     ========================= -->
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>00000088</selectorColor>
+			<selectedColor>d5d5d5</selectedColor>
+			<primaryColor>d5d5d5</primaryColor>
+			<secondaryColor>d4c406</secondaryColor>
+			<fontSize>0.035</fontSize>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.082</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
+
+	</view>
+
+	<!-- =========================
+	     BASIC
+	     ========================= -->
+	<view name="basic">
+
+		<image name="console" extra="true">
+			<pos>0.75 0.5</pos>
+			<maxSize>0.4 0.4</maxSize>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.025 0.19</pos>
+			<size>0.50 0.7</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<pos>0.5 0.082</pos>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
+
+		<image name="border" extra="true">
+			<path>./art/border_simple.png</path>
+		</image>
+
+	</view>
+
+	<!-- =========================
+	     DETAILED / VIDEO
+	     ========================= -->
+	<view name="detailed, video">
+
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>7b7b7b</color>
+			<path>./art/bg_detailed.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.025 0.04</pos>
+			<size>0.38 0.615</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<pos>0.528 0.07</pos>
+			<maxSize>0.156 0.08</maxSize>
+		</image>
+
+		<image name="console" extra="true">
+			<pos>0.528 0.178</pos>
+			<maxSize>0.156 0.11</maxSize>
+		</image>
+
+		<text name="md_lbl_rating">
+			<pos>1 1</pos>
+		</text>
+
+		<rating name="md_rating">
+			<pos>0.483 0.24</pos>
+			<size>0.156 0.03</size>
+			<filledPath>./art/star_full.png</filledPath>
+			<unfilledPath>./art/star_hollow.png</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount">
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<fontSize>0.027</fontSize>
+			<color>d5d5d5</color>
+			<alignment>center</alignment>
+			<size>0.180 0.05</size>
+		</text>
+
+		<text name="md_lbl_genre, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount">
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.027</fontSize>
+			<color>d5d5d5</color>
+		</datetime>
+
+		<text name="md_genre">
+			<pos>0.435 0.3</pos>
+			<size>0.180 0.065</size>
+			<fontSize>0.030</fontSize>
+		</text>
+
+		<datetime name="md_releasedate">
+			<pos>0.492 0.4</pos>
+		</datetime>
+
+		<text name="md_developer">
+			<pos>0.435 0.45</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.435 0.5</pos>
+		</text>
+
+		<image name="md_favorite, md_kidgame, md_hidden">
+			<origin>0.5 0.5</origin>
+			<maxSize>0.03 0.055</maxSize>
+		</image>
+
+		<image name="md_favorite">
+			<pos>0.470 0.620</pos>
+			<path>./art/icon_favourite.svg</path>
+		</image>
+
+		<image name="md_kidgame">
+			<pos>0.525 0.620</pos>
+			<path>./art/icon_kid.svg</path>
+		</image>
+
+		<image name="md_hidden">
+			<pos>0.580 0.620</pos>
+			<path>./art/icon_hidden.svg</path>
+		</image>
+
+		<text name="md_lbl_players">
+			<fontSize>0.035</fontSize>
+			<pos>0.020 0.7</pos>
+			<size>0.2 0.05</size>
+		</text>
+
+		<text name="md_players">
+			<fontSize>0.060</fontSize>
+			<pos>0.015 0.74</pos>
+			<size>0.2 0.18</size>
+		</text>
+
+		<text name="md_description">
+			<pos>0.33 0.71</pos>
+			<size>0.55 0.175</size>
+			<color>d5d5d5</color>
+			<fontSize>0.028</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>0</forceUppercase>
+		</text>
+
+		<image name="border" extra="true">
+			<path>./art/border_detailed.png</path>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>d5d5d5ff</textColor>
+			<iconColor>d5d5d5ff</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<!-- =========================
+	     DETAILED
+	     ========================= -->
+	<view name="detailed">
+		<image name="md_image">
+			<maxSize>0.325 0.610</maxSize>
+			<pos>0.812 0.345</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+
+	<!-- =========================
+	     VIDEO
+	     ========================= -->
+	<view name="video">
+
+		<image name="md_marquee">
+			<maxSize>0.325 0.160</maxSize>
+			<pos>0.815 0.120</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<video name="md_video">
+			<maxSize>0.325 0.430</maxSize>
+			<pos>0.815 0.435</pos>
+			<origin>0.5 0.5</origin>
+			<delay>3.25</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+
+	</view>
+<!-- =========================
+     NAVIGATION SOUNDS
+     ========================= -->
+<feature supported="navigationsounds">
+  <view name="all">
+
+    <sound name="scroll">
+      <path>./audio/scroll.wav</path>
+    </sound>
+
+    <sound name="select">
+      <path>./audio/select.wav</path>
+    </sound>
+
+    <sound name="back">
+      <path>./audio/back.wav</path>
+    </sound>
+
+    <sound name="launch">
+      <path>./audio/launch.wav</path>
+    </sound>
+
+    <sound name="favorite">
+      <path>./audio/favorite.wav</path>
+    </sound>
+
+    <sound name="systembrowse">
+      <path>./audio/systembrowse.wav</path>
+    </sound>
+
+    <sound name="quicksysselect">
+      <path>./audio/quicksysselect.wav</path>
+    </sound>
+
+  </view>
+</feature>
+
+</theme>

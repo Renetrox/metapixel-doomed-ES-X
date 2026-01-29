@@ -1,0 +1,45 @@
+<theme>
+  <variables>
+    <systemName>Virtual Boy</systemName>
+
+    <systemDescription>Released by Nintendo in 1995, the Virtual Boy was a 32-bit tabletop portable console marketed as the first to display stereoscopic 3D graphics. Using a head-mounted eyepiece, players viewed red monochrome images created through a parallax effect. Despite its ambitious technology, the system struggled with high pricing and limited comfort, leading Nintendo to discontinue it in 1996 with only 22 games ever released. It remains one of Nintendo's rarest and most unique hardware experiments.</systemDescription>
+
+    <systemManufacturer>Nintendo</systemManufacturer>
+    <systemReleaseYear>1995</systemReleaseYear>
+    <systemReleaseDate>1995-07-21</systemReleaseDate>
+    <systemReleaseDateFormated>July 21, 1995</systemReleaseDateFormated>
+    <systemHardwareType>Portable</systemHardwareType>
+    <systemCoverSize>1-1</systemCoverSize>
+    <systemCoverSizeType>square</systemCoverSizeType>
+    <systemColor>f05148</systemColor>
+    <systemColorPalette1>363636</systemColorPalette1>
+    <systemColorPalette2>FE0016</systemColorPalette2>
+    <systemColorPalette3>8A8C8E</systemColorPalette3>
+    <systemColorPalette4>232323</systemColorPalette4>
+    <systemCartSize>257-229</systemCartSize>
+  </variables>
+
+  <language name="es_ES">
+    <variables>
+      <systemDescription>Lanzada por Nintendo en 1995, la Virtual Boy fue una consola portátil de sobremesa de 32 bits y la primera en ofrecer gráficos 3D estereoscópicos. A través de un visor, los jugadores veían imágenes monocromáticas en rojo que generaban una ilusión de profundidad mediante efectos de paralaje. Debido a su alto precio y falta de comodidad, el sistema fue un fracaso comercial, siendo descatalogado en 1996 con solo 22 juegos en su catálogo oficial.</systemDescription>
+      <systemHardwareType>Portátil</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="fr_FR">
+    <variables>
+      <systemDescription>Lancé par Nintendo en 1995, le Virtual Boy était une console 32 bits portable de table, pionnière dans l'affichage de graphismes 3D stéréoscopiques. Via un oculaire, les joueurs voyaient des images monochromes rouges utilisant un effet de parallaxe pour simuler la profondeur. Malgré son ambition, le système fut un échec commercial et Nintendo cessa sa production en 1996, après la sortie de seulement 22 jeux, en faisant l'une des machines les plus rares de la marque.</systemDescription>
+      <systemHardwareType>Portable</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="de_DE">
+    <variables>
+      <systemDescription>Der 1995 von Nintendo veröffentlichte Virtual Boy war eine tragbare 32-Bit-Tischkonsole und die erste, die stereoskopische 3D-Grafiken bot. Über ein Okular sahen die Spieler rote Monochrom-Bilder, die durch Parallaxeffekte Tiefe erzeugten. Aufgrund mangelnden Komforts und hoher Preise blieb der Erfolg aus; Nintendo stellte das System bereits 1996 nach nur 22 veröffentlichten Spielen wieder ein, was es heute zu einem seltenen Sammlerstück macht.</systemDescription>
+      <systemHardwareType>Tragbar</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="it_IT">
+    <variables>
+      <systemDescription>Rilasciato da Nintendo nel 1995, il Virtual Boy era una console portatile da tavolo a 32 bit, la prima a visualizzare grafica 3D stereoscopica. Tramite un visore, i giocatori vedevano immagini monocromatiche rosse che creavano un effetto di profondità. Nonostante l'ambizione tecnologica, il sistema non ebbe successo e Nintendo ne interruppe la produzione nel 1996 con soli 22 titoli pubblicati, rendendolo oggi un pezzo raro e distintivo della storia Nintendo

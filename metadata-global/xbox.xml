@@ -1,0 +1,70 @@
+<theme>
+  <variables>
+    <systemName>Xbox</systemName>
+
+    <systemDescription>Launched by Microsoft in 2001, the Xbox marked the tech giant's powerful entry into the console market. Built on an architecture similar to a PC, it featured a built-in hard drive and a specialized Intel CPU, making it the most powerful system of its generation. The console gained massive popularity through the "Halo" franchise and revolutionized online gaming with the launch of Xbox Live in 2002. Its legacy defined Microsoft as a major player in the industry, bridging the gap between PC and console gaming.</systemDescription>
+
+    <systemManufacturer>Microsoft</systemManufacturer>
+    <systemReleaseYear>2001</systemReleaseYear>
+    <systemReleaseDate>2001-11-15</systemReleaseDate>
+    <systemReleaseDateFormated>November 15, 2001</systemReleaseDateFormated>
+    <systemHardwareType>Console</systemHardwareType>
+    <systemCoverSize>243-340</systemCoverSize>
+    <systemCoverSizeType>portrait</systemCoverSizeType>
+    <systemColor>66a853</systemColor>
+    <systemColorPalette1>CDDF01</systemColorPalette1>
+    <systemColorPalette2>9ABF5E</systemColorPalette2>
+    <systemColorPalette3>534F57</systemColorPalette3>
+    <systemColorPalette4>000000</systemColorPalette4>
+    <systemCartSize>1-1</systemCartSize>
+  </variables>
+
+  <language name="es_ES">
+    <variables>
+      <systemDescription>Lanzada por Microsoft en 2001, la Xbox original marcó la entrada de la compañía en el mercado de consolas con un hardware superior basado en arquitectura de PC. Fue la primera en incluir un disco duro interno y un puerto Ethernet de serie, facilitando el nacimiento de Xbox Live en 2002. Gracias a títulos revolucionarios como "Halo: Combat Evolved", la consola se estableció como una plataforma potente y competitiva, sentando las bases del ecosistema de juego moderno de Microsoft.</systemDescription>
+      <systemHardwareType>Consola</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="fr_FR">
+    <variables>
+      <systemDescription>Lancée par Microsoft en 2001, la Xbox a marqué l'entrée fracassante du géant américain sur le marché des consoles avec une architecture proche du PC. Dotée d'un disque dur interne et d'une puissance brute supérieure à ses concurrentes, elle a révolutionné le jeu en ligne avec le lancement du service Xbox Live en 2002. Portée par le succès phénoménal de la saga "Halo", elle a imposé Microsoft comme un acteur majeur du jeu vidéo mondial.</systemDescription>
+      <systemHardwareType>Console</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="de_DE">
+    <variables>
+      <systemDescription>Die 2001 von Microsoft veröffentlichte Xbox markierte den kraftvollen Einstieg des Unternehmens in den Konsolenmarkt. Mit einer PC-ähnlichen Architektur und einer integrierten Festplatte war sie das leistungsstärkste System ihrer Generation. Durch bahnbrechende Titel wie "Halo" und die Einführung von Xbox Live im Jahr 2002 revolutionierte sie das Online-Gaming und etablierte Microsoft dauerhaft als ernsthaften Konkurrenten zu Sony und Nintendo.</systemDescription>
+      <systemHardwareType>Konsole</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="it_IT">
+    <variables>
+      <systemDescription>Lanciata da Microsoft nel 2001, la Xbox ha segnato l'ingresso del colosso tecnologico nel mercato delle console con un hardware all'avanguardia derivato dall'architettura PC. È stata la prima console a includere un disco rigido interno e a rivoluzionare il gioco online con il debutto di Xbox Live nel 2002. Grazie al successo di titoli come "Halo", la Xbox si è imposta come una piattaforma potente, definendo l'identità gaming di Microsoft per gli anni a venire.</systemDescription>
+      <systemHardwareType>Console</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="ja_JP">
+    <variables>
+      <systemDescription>2001年にマイクロソフトから発売された初代Xboxは、PCに近いアーキテクチャと内蔵ハードディスクを搭載した、当時最強のスペックを誇る家庭用ゲーム機でした。「Halo」シリーズの爆発的ヒットや、2002年に開始されたオンラインサービス「Xbox Live」により、現代のオンライン対戦ゲームの礎を築きました。マイクロソフトをゲーム業界の主要プレイヤーへと押し上げた記念碑的なマシンです。</systemDescription>
+      <systemHardwareType>コンソール</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="pt_BR">
+    <variables>
+      <systemDescription>Lançada pela Microsoft em 2001, a Xbox marcou a entrada da gigante tecnológica no mercado de consoles com um hardware poderoso baseado em arquitetura de PC. Foi o primeiro console a incluir um disco rígido interno e a transformar o jogo online com o lançamento da Xbox Live em 2002. Impulsionada pelo sucesso massivo de "Halo", a plataforma estabeleceu a Microsoft como uma das principais forças da indústria de videogames.</systemDescription>
+      <systemHardwareType>Console</systemHardwareType>
+    </variables>
+  </language>
+
+  <language name="zh_CN">
+    <variables>
+      <systemDescription>微软于 2001 年推出的初代 Xbox 标志着这位科技巨头强力进军游戏机市场。它采用了类似于 PC 的架构，是首款内置硬盘的主机，拥有当时同代产品中最强悍的性能。凭借《光环》系列的成功以及 2002 年推出的 Xbox Live 在线服务，它彻底改变了玩家的在线游戏体验，确立了微软在游戏行业的重要地位。</systemDescription>
+      <systemHardwareType>控制台</systemHardwareType>
+    </variables>
+  </language>
+</theme>
