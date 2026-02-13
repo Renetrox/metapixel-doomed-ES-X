@@ -1,10 +1,26 @@
+<!--
+theme name:		MetaPixel (D00MED)
+version:		2023.03
+author:			RapidEdwin08
+github :		https://github.com/RapidEdwin08/metapixel-doomed
+theme info:		Fork of MetaPixel with Chicago95 Font + Extra Systems including PlayStation3, 3DS, Wii U by precursormar found here: https://www.reddit.com/r/emulation/comments/8tlyty/ive_updated_emulationstations_pixel_theme_by/
+
+based on:		MetaPixel
+version:		1.3
+author:			Matt Kennedy
+github :		https://github.com/mattrixk/es-theme-metapixel
+email:			info@cutmonkey.net
+website:		cutmonkey.net
+license:		creative commons CC-BY-NC-SA
+based on:		"Pixel" by Eric Hettervik
+-->
+
 <theme>
 	<formatVersion>4</formatVersion>
-	
-	<!-- Metadata global -->
-<include>./metadata-global/_default.xml</include>
-<include>./metadata-global/${system.theme}.xml</include>
 
+	<!-- Metadata global (fallback + sistema actual) -->
+	<include>./metadata-global/_default.xml</include>
+	<include>./metadata-global/${system.theme}.xml</include>
 
 	<!-- =========================
 	     VIEWS COMUNES
@@ -21,7 +37,7 @@
 		</image>
 
 		<image name="console" extra="true">
-			<tile>false</tile>
+			<tile>true</tile>
 			<origin>0.5 0.5</origin>
 		</image>
 
@@ -32,6 +48,7 @@
 			<size>1 1</size>
 		</image>
 
+		<!-- Helpsystem (unificado) -->
 		<helpsystem name="help">
 			<textColor>d5d5d5ff</textColor>
 			<iconColor>d5d5d5ff</iconColor>
@@ -39,9 +56,7 @@
 			<fontPath>./art/fontdos.ttf</fontPath>
 		</helpsystem>
 
-		<text name="system_description" extra="true">
-			<fontPath>./art/fontdos.ttf</fontPath>
-		</text>
+		<!-- Fuente global -->
 
 		<textlist name="gamelist">
 			<fontPath>./art/fontdos.ttf</fontPath>
@@ -58,66 +73,15 @@
 	</view>
 
 	<!-- =========================
-	     SYSTEM VIEW (VERTICAL)
+	     SYSTEM
 	     ========================= -->
 	<view name="system">
-	
-		<text name="systemInfo">
-		<pos>0.50 0.64</pos>
-		<size>1 0.05</size>
-		<origin>0.5 0.5</origin>
 
-		<color>ffffffff</color>
-		<backgroundColor>00000000</backgroundColor>
-
-		<fontPath>./art/fontdos.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<alignment>center</alignment>
-	</text>
-	
-	<!-- DESCRIPCIÓN DEL SISTEMA -->
-
-<!-- Sombra -->
-<text name="system-description_shadow" extra="true">
-  <origin>0 0</origin>
-  <pos>0.312 0.671</pos>   <!-- offset ( +0.002 +0.002 ) -->
-  <size>0.599 0.7</size>
-  <text>${systemDescription}</text>
-  <fontPath>./art/fontdos.ttf</fontPath>
-  <fontSize>0.022</fontSize>
-  <color>00000088</color>  <!-- sombra -->
-  <alignment>top</alignment>
-  <lineSpacing>1.25</lineSpacing>
-  <autoScroll>true</autoScroll>
-  <autoScrollDelay>1500</autoScrollDelay>
-  <zIndex>199</zIndex>
-</text>
-
-<!-- Texto -->
-<text name="system-description" extra="true">
-  <origin>0 0</origin>
-  <pos>0.310 0.669</pos>
-  <size>0.599 0.7</size>
-  <text>${systemDescription}</text>
-  <fontPath>./art/fontdos.ttf</fontPath>
-  <fontSize>0.022</fontSize>
-  <color>FFFFFFFF</color>
-  <alignment>top</alignment>
-  <lineSpacing>1.25</lineSpacing>
-  <autoScroll>true</autoScroll>
-  <autoScrollDelay>1500</autoScrollDelay>
-  <zIndex>200</zIndex>
-</text>
-
-
-		<!-- Consola a la derecha -->
 		<image name="console" extra="true">
-			<pos>0.50 0.445</pos>
+			<pos>0.5 0.189</pos>
 			<maxSize>0.312 0.333</maxSize>
-			<zIndex>100</zIndex>
 		</image>
 
-		<!-- Screenshots en columna izquierda -->
 		<image name="screenshot_left, screenshot_right" extra="true">
 			<tile>false</tile>
 			<origin>0.5 0.5</origin>
@@ -125,45 +89,52 @@
 		</image>
 
 		<image name="screenshot_left" extra="true">
-			<pos>0.820 0.185</pos>
-			<zIndex>100</zIndex>
+			<pos>0.169 0.189</pos>
 		</image>
 
 		<image name="screenshot_right" extra="true">
-			<pos>0.820 0.52</pos>
-			<zIndex>100</zIndex>
+			<pos>0.831 0.189</pos>
 		</image>
 
-		<!-- Descripción anulada -->
-		<text name="system_description" extra="true">
-			<visible>false</visible>
+		<!-- Descripción del sistema (metadata-global: ${systemDescription}) -->
+		<!-- Sombra -->
+		<text name="system-description_shadow" extra="true">
+			<origin>0 0</origin>
+			<pos>0.028 0.714</pos>
+			<size>0.95 0.18</size>
+			<text>${systemDescription}</text>
+			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>00000088</color>
+			<alignment>left</alignment>
+			<lineSpacing>1.05</lineSpacing>
+			<autoScroll>true</autoScroll>
+			<autoScrollDelay>999999</autoScrollDelay>
+			<zIndex>199</zIndex>
 		</text>
 
+		<!-- Texto -->
+		<text name="system-description" extra="true">
+			<origin>0 0</origin>
+			<pos>0.025 0.711</pos>
+			<size>0.95 0.18</size>
+			<text>${systemDescription}</text>
+			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>d5d5d5</color>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.05</lineSpacing>
+			<autoScroll>true</autoScroll>
+			<autoScrollDelay>999999</autoScrollDelay>
+			<zIndex>200</zIndex>
+		</text>
+
+		<image name="border" extra="true">
+			<path>./art/border_system.png</path>
+		</image>
+
 	</view>
-
-	<!-- =========================
-	     CARRUSEL VERTICAL SYSTEM
-	     ========================= -->
-	<feature supported="carousel">
-		<view name="system">
-			<carousel name="systemcarousel">
-				<type>vertical</type>
-
-				<origin>0 0</origin>
-				<pos>0.03 0.02</pos>
-				<size>0.28 0.92</size>
-
-				<logoAlignment>top</logoAlignment>
-				<maxLogoCount>7</maxLogoCount>
-				<color>00000000</color>
-
-				<logoSize>0.24 0.08</logoSize>
-				<logoScale>1.0</logoScale>
-				<minLogoOpacity>0.8</minLogoOpacity>
-				<scaledLogoSpacing>2</scaledLogoSpacing>
-			</carousel>
-		</view>
-	</feature>
 
 	<!-- =========================
 	     BASIC / DETAILED / VIDEO
@@ -203,6 +174,11 @@
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>
+
+		<image name="logo" extra="true">
+			<pos>0.5 0.082</pos>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
 
 		<image name="border" extra="true">
 			<path>./art/border_simple.png</path>
