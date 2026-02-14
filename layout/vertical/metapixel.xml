@@ -80,8 +80,8 @@
 <!-- Sombra -->
 <text name="system-description_shadow" extra="true">
   <origin>0 0</origin>
-  <pos>0.312 0.671</pos>   <!-- offset ( +0.002 +0.002 ) -->
-  <size>0.299 0.7</size>
+  <pos>0.311 0.371</pos>   <!-- offset ( +0.002 +0.002 ) -->
+  <size>0.599 0.7</size>
   <text>${systemDescription}</text>
   <fontPath>./art/fontdos.ttf</fontPath>
   <fontSize>0.022</fontSize>
@@ -96,7 +96,7 @@
 <!-- Texto -->
 <text name="system-description" extra="true">
   <origin>0 0</origin>
-  <pos>0.310 0.669</pos>
+  <pos>0.310 0.369</pos>
   <size>0.599 0.7</size>
   <text>${systemDescription}</text>
   <fontPath>./art/fontdos.ttf</fontPath>
