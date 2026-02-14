@@ -37,7 +37,7 @@ based on:		"Pixel" by Eric Hettervik
 		</image>
 
 		<image name="console" extra="true">
-			<tile>true</tile>
+			<tile>false</tile>
 			<origin>0.5 0.5</origin>
 		</image>
 
