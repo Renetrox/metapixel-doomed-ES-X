@@ -191,7 +191,7 @@
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<color>7b7b7b</color>
-			<path>./art/bg_detailed_trans.png</path>
+			<path>./art/bg_detailed.png</path>
 			<zIndex>10</zIndex>
 		</image>
 
