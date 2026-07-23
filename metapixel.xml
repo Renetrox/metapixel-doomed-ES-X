@@ -98,7 +98,7 @@ based on:		"Pixel" by Eric Hettervik
 
 		<!-- Descripción del sistema (metadata-global: ${systemDescription}) -->
 		<!-- Sombra -->
-		<text name="system-description_shadow" extra="true">
+		<text name="system-description_shadow">
 			<origin>0 0</origin>
 			<pos>0.028 0.714</pos>
 			<size>0.95 0.18</size>
@@ -114,7 +114,7 @@ based on:		"Pixel" by Eric Hettervik
 		</text>
 
 		<!-- Texto -->
-		<text name="system-description" extra="true">
+		<text name="system-description">
 			<origin>0 0</origin>
 			<pos>0.025 0.711</pos>
 			<size>0.95 0.18</size>
@@ -162,7 +162,7 @@ based on:		"Pixel" by Eric Hettervik
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<color>7b7b7b</color>
-			<path>./art/bg_detailed.png</path>
+			<path>./art/bg_detailed_trans.png</path>
 			<zIndex>10</zIndex>
 		</image>
 
