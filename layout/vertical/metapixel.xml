@@ -78,9 +78,9 @@
 	<!-- DESCRIPCIÓN DEL SISTEMA -->
 
 <!-- Sombra -->
-<text name="system-description_shadow" extra="true">
+<text name="system-description_shadow">
   <origin>0 0</origin>
-  <pos>0.311 0.371</pos>   <!-- offset ( +0.002 +0.002 ) -->
+  <pos>0.311 0.771</pos>   <!-- offset ( +0.002 +0.002 ) -->
   <size>0.599 0.7</size>
   <text>${systemDescription}</text>
   <fontPath>./art/fontdos.ttf</fontPath>
@@ -94,9 +94,9 @@
 </text>
 
 <!-- Texto -->
-<text name="system-description" extra="true">
+<text name="system-description">
   <origin>0 0</origin>
-  <pos>0.310 0.369</pos>
+  <pos>0.310 0.769</pos>
   <size>0.599 0.7</size>
   <text>${systemDescription}</text>
   <fontPath>./art/fontdos.ttf</fontPath>
@@ -152,7 +152,7 @@
 				<origin>0 0</origin>
 				<pos>0.03 0.02</pos>
 				<size>0.28 0.92</size>
-
+				<selectedLogoPulse>true</selectedLogoPulse>
 				<logoAlignment>top</logoAlignment>
 				<maxLogoCount>7</maxLogoCount>
 				<color>00000000</color>
@@ -191,7 +191,7 @@
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<color>7b7b7b</color>
-			<path>./art/bg_detailed.png</path>
+			<path>./art/bg_detailed_trans.png</path>
 			<zIndex>10</zIndex>
 		</image>
 
